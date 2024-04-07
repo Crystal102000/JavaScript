@@ -28,6 +28,36 @@ let booleanCheck = Boolean(isLoggedIn);
 
 let arreNum = null
 let convertNum = String(arreNum);
-console.log(convertNum);
-console.log(typeof convertNum);
+// console.log(convertNum);
+// console.log(typeof convertNum);
+
+/* **************** OPERATIONS ********************* */
+
+// console.log(+true) // => 1
+
+// prefix and postfix operators
+
+//PREFIX
+
+// let x = 5;
+// let y = ++x;
+
+// console.log(`x: ${x} , y: ${y}`);
+
+// let a2 = 2n; //bigint
+// const b2 = ++a2;
+
+// console.log("a2: ", a2 , "b2: ",  b2); 
+
+//POSTFIX
+// let x =2;
+// let y = x++;
+// console.log(`x: ${x} y:${y}`);
+
+
+// let a =2n;
+// let b = a++;
+// console.log("a: ", a , "b: ",  b);
+// console.log(typeof a);
+
 
